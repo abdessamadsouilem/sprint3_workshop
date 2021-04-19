@@ -1,10 +1,20 @@
 <template>
-  <div id="app">
-    <div id="nav">
+   <div >
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Youcode Youssoufia </a>
+    
+      <form class="d-flex">
+        <router-link class="btn text-primary" to="/Login">Sign in</router-link>
+        <router-link class="btn btn-outline-primary" to="/">Sign up</router-link>
+      </form>
+  
+  </div>
+</nav>
   </div>
 </template>
 
