@@ -1,0 +1,24 @@
+.social-btn .btn {
+    color: #0d6efd;
+    background-color: #cbe0ff;
+    margin: 10px 0 0 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    transition: all 0.4s;
+}
+
+.social-btn .btn:first-child {
+    margin-left: 0;
+}
+
+.social-btn .btn:hover {
+    opacity: 0.8;
+}
+
+.social-btn .btn i {
+    float: left;
+    margin: 3px 10px;
+    font-size: 20px;
+}
